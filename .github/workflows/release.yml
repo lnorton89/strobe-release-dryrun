@@ -349,3 +349,5 @@ jobs:
           cd dist
           gh release upload "$TAG" $(find . -type f) --clobber
           gh release edit "$TAG" --draft=false --latest
+
+# Scratch-mirror registration nudge; reverted locally.
